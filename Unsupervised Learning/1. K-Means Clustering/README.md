@@ -74,7 +74,7 @@ pip install numpy matplotlib seaborn scikit-learn
 
 ### 3. Run the Notebook
 ```bash
-jupyter notebook K-Means-Clustering.ipynb
+jupyter notebook K-Means_Clustering.ipynb
 ```
 
 Or via Google Colab:

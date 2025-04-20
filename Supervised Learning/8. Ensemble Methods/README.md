@@ -24,7 +24,7 @@ This project applies three ensemble learning techniques—Hard Voting, Bagging, 
    - Bagging: Trained 100 Decision Trees using bootstrapped subsets of data.
    - Boosting:
      - Gradient Boosting: Sequentially trained trees to correct previous errors.
-     - Improved AdaBoost: Used deeper base estimators (depth=3) for better handling of digit variation.
+     - AdaBoost: Used deeper base estimators (depth=3) for better handling of digit variation.
 
 3. Model Evaluation
    - Evaluated each model using:
@@ -39,7 +39,7 @@ This project applies three ensemble learning techniques—Hard Voting, Bagging, 
 |-------------------|----------|
 | Hard Voting       | 96.94%   |
 | Bagging           | 92.50%   |
-| AdaBoost (Improved) | 94.17%   |
+| AdaBoost  | 94.17%   |
 | Gradient Boosting | 95.56%   |
 
 #### Example: Classification Report (Hard Voting)
@@ -75,9 +75,8 @@ This project applies three ensemble learning techniques—Hard Voting, Bagging, 
    - Performed well (92.50%), though slightly worse than boosting methods.
    - More prone to instability with misclassifications around digits like 8 and 9.
 
-3. Improved AdaBoost:
+3. AdaBoost:
    - Upgraded base learner from depth=1 to depth=3 improved accuracy significantly to 94.17%.
-   - Previously underperformed (~48%) with too shallow trees.
 
 4. Gradient Boosting:
    - Very strong performance (95.56%), rivaling Hard Voting.

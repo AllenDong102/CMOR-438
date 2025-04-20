@@ -1,9 +1,7 @@
 # K-Nearest Neighbors
 
 ## Project Overview
-This project implements the K-Nearest Neighbors (KNN) algorithm to classify handwritten digits (0-9) using the Digits Dataset from scikit-learn. The goal is to predict the correct digit based on an 8x8 grayscale image representation.
-
-KNN is a non-parametric, instance-based learning algorithm that classifies a data point based on the majority vote of its k-nearest neighbors.
+This project implements the K-Nearest Neighbors (KNN) algorithm to classify handwritten digits (0-9) using the Digits Dataset from scikit-learn. The goal is to predict the correct digit based on an 8x8 grayscale image representation. KNN is a non-parametric, instance-based learning algorithm that classifies a data point based on the majority vote of its k-nearest neighbors.
 
 ## Dataset Overview
 ### Digits Dataset

@@ -33,7 +33,7 @@ This project applies the DBSCAN (Density-Based Spatial Clustering of Application
 - Estimated Number of Clusters: 17
 - Noise Points Detected: 558
 - Silhouette Score: 0.1504
-- Adjusted Rand Index (ARI): 0.2750
+- Adjusted Rand Index (ARI): 0.2800
 
 ### Visualizations
 - PCA Scatter Plot: DBSCAN clusters (colored), noise points (gray)
@@ -46,7 +46,7 @@ This project applies the DBSCAN (Density-Based Spatial Clustering of Application
 1. Clustering Performance
    - DBSCAN detected 17 clusters and marked 558 points as noise (~31% of the dataset).
    - The silhouette score (0.1504) is relatively low due to overlapping digit shapes and high dimensionality.
-   - ARI of 0.2750 reflects modest alignment with true labels—reasonable given DBSCAN's unsupervised nature and noisy input.
+   - ARI of 0.2800 reflects modest alignment with true labels—reasonable given DBSCAN's unsupervised nature and noisy input.
 
 2. Cluster Behavior
    - Several clusters align well with individual digits, but some digit classes are fragmented across clusters.
