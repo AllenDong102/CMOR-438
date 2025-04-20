@@ -22,16 +22,16 @@ Each algorithm is demonstrated on a dataset, with code, results, and analyses pr
 │   ├── Linear_Regression/
 │   ├── Logistic_Regression/
 │   ├── Neural_Networks/
-│   ├── KNN/
+│   ├── K_Nearest_Neighbors/
 │   ├── Decision_Trees/
 │   ├── Random_Forests/
-│   ├── Boosting/
+│   ├── Ensemble_Methods/
 │   └── README.md
 ├── Unsupervised_Learning/
-│   ├── KMeans/
+│   ├── K_Means_Clustering/
 │   ├── DBSCAN/
 │   ├── PCA/
-│   ├── SVD_Image_Compression/
+│   ├── SVD/
 │   └── README.md
 └── README.md (this file)
 ```
@@ -52,10 +52,10 @@ Each algorithm is demonstrated on a dataset, with code, results, and analyses pr
 | Linear Regression                | Predicting continuous outcomes.                  |
 | Logistic Regression              | Binary classification based on linear decision boundaries. |
 | Neural Networks                  | Multi-layer perceptron for complex patterns.     |
-| K Nearest Neighbors        | Instance-based learning and classification.     |
+| K-Nearest Neighbors        | Instance-based learning and classification.     |
 | Decision Trees                   | Tree-based models for classification and regression. |
 | Random Forests                   | Ensemble of decision trees for better accuracy. |
-| Boosting | Sequential ensemble methods to improve weak learners. |
+| Ensemble Methods | Sequential ensemble methods to improve weak learners. |
 
 ---
 
@@ -66,7 +66,7 @@ Each algorithm is demonstrated on a dataset, with code, results, and analyses pr
 | K-Means Clustering                | Partitioning data into k clusters.                |
 | DBSCAN                           | Density-based clustering for irregular shapes.   |
 | Principal Component Analysis| Dimensionality reduction and visualization.      |
-| SVD Image Compression             | Image approximation using Singular Value Decomposition. |
+| Singular Value Decomposition            | Image approximation using Singular Value Decomposition. |
 
 ---
 

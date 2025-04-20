@@ -94,7 +94,7 @@ pip install numpy tensorflow keras seaborn matplotlib scikit-learn
 
 ### 3. Run the Notebook
 ```bash
-jupyter notebook Neural_Network.ipynb
+jupyter notebook Neural_Networks.ipynb
 ```
 
 Or via Google Colab:
