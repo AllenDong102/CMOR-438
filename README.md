@@ -25,23 +25,14 @@ Each algorithm is demonstrated on a dataset, with code, results, and analyses pr
 │   ├── K_Nearest_Neighbors/
 │   ├── Decision_Trees/
 │   ├── Random_Forests/
-│   ├── Ensemble_Methods/
-│   └── README.md
+│   └── Ensemble_Methods/
 ├── Unsupervised_Learning/
 │   ├── K_Means_Clustering/
 │   ├── DBSCAN/
 │   ├── PCA/
-│   ├── SVD/
-│   └── README.md
+│   └── SVD/
 └── README.md (this file)
 ```
-
-- Each algorithm folder contains:
-  - Python notebooks/scripts with implementation.
-  - Dataset files or links to datasets (if not too large).
-  - Visualizations and analysis.
-- Each section has its own README explaining the algorithms and datasets used.
-
 ---
 
 ## Supervised Learning Algorithms

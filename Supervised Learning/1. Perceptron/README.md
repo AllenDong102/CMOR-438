@@ -1,9 +1,7 @@
 # Perceptron
 
 ## Project Overview
-This project implements the Perceptron algorithm to classify breast cancer tumors as benign or malignant based on diagnostic features. The Perceptron, a linear classifier, learns a decision boundary to separate the two classes using labeled data.
-
-Additionally, this project includes a benchmark comparison with scikit-learn's built-in `Perceptron` model to validate the custom implementation.
+This project implements the Perceptron algorithm to classify breast cancer tumors as benign or malignant based on diagnostic features. The Perceptron, a linear classifier, learns a decision boundary to separate the two classes using labeled data. Additionally, this project includes a benchmark comparison with scikit-learn's built-in `Perceptron` model to validate the custom implementation.
 
 ## Dataset Overview
 ### Breast Cancer Wisconsin Dataset
