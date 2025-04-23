@@ -56,12 +56,6 @@ This project applies the Random Forest algorithm to classify handwritten digits 
 
 - Macro Avg F1-Score: 0.96
 - Weighted Avg F1-Score: 0.96
-
-### Visualizations
-- Confusion Matrix
-- Feature Importance by Pixel Index
-- Misclassified Digit Images
-
 ---
 
 ## Analysis of Results

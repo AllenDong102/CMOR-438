@@ -58,11 +58,6 @@ This project applies three ensemble learning techniques—Hard Voting, Bagging, 
 
 - Macro Avg F1-Score: 0.97
 - Weighted Avg F1-Score: 0.97
-
-### Visualizations
-- Confusion Matrices for each method
-- Misclassified Digit Image Visualizations (optional in notebook)
-
 ---
 
 ## Analysis of Results

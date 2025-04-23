@@ -50,11 +50,6 @@ This project implements the K-Nearest Neighbors (KNN) algorithm to classify hand
 | 8 | 0.94 | 0.89 | 0.91 | 35 |
 | 9 | 1.00 | 0.92 | 0.96 | 36 |
 
-### Visualizations
-[Confusion Matrix Heatmap]
-- Visualization of classification performance across all digit classes
-- Highlights areas of confusion between digits
-
 ## Analysis of Results
 1. Model Performance
    - The model achieved 96.67% accuracy on the test set, indicating high classification capability.

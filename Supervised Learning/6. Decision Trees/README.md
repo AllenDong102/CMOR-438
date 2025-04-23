@@ -27,18 +27,18 @@ The decision tree classifier and regressor are evaluated based on classification
 
 ## **Algorithm Implementation Steps**
 
-### **1️⃣ Data Preprocessing**
+### **Data Preprocessing**
 - Loaded datasets and split into training and test sets.
 - Standardized the feature values using `StandardScaler` for stable training.
 - Handled both classification (binary target) and regression (continuous target).
 
-### **2️⃣ Model Implementation**
+### **Model Implementation**
 - Used `DecisionTreeClassifier` with a fixed `max_depth` for interpretable classification.
 - Used `DecisionTreeRegressor` for regression with visual inspection of splits.
 - Exported rules from the decision tree to improve model interpretability.
 - Visualized tree structures using `plot_tree`.
 
-### **3️⃣ Model Evaluation**
+### **Model Evaluation**
 - **Classification**: Accuracy, Confusion Matrix, Classification Report.
 - **Regression**: Mean Squared Error (MSE), R² score.
 
@@ -109,21 +109,21 @@ The decision tree classifier and regressor are evaluated based on classification
 
 ## **Analysis of Results**
 
-### **1️⃣ Breast Cancer Classification**
+### **Breast Cancer Classification**
 - The decision tree classifier achieved high accuracy (~91%) with excellent precision and recall.
 - Tree rules provide transparency in decision-making, aiding medical trust and interpretability.
 
-### **2️⃣ Tree Rules**
+### **Tree Rules**
 - Using `export_text`, the model exposes its logic in if-else format.
 - Clear thresholds on features like `worst concave points`, `area error`, and `smoothness error` aid in understanding the model's decision process.
 
-### **3️⃣ Housing Regression**
+### **Housing Regression**
 - The regression tree exposes how `MedInc` and `Latitude` influence predictions.
 - Tree depth control avoids overfitting, balancing complexity and performance.
 
 ---
 
-## ⚙ **How to Run the Project**
+## **How to Run the Project**
 
 ### **1. Clone the Repository**
 ```bash
